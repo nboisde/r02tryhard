@@ -86,10 +86,10 @@ t_dict		*create_dict(char **dict)
 	lang[len_dict] = create_dict_null();
 	return (lang);
 }
-
+/*
 #include <stdio.h>
 
-int		main(/*int ac, char **av*/void)
+int		main(int ac, char **avvoid)
 {
 	char		**dict = ft_fsplit("../includes/numbers.dict");
 	t_dict		*lang = create_dict(dict);
@@ -143,4 +143,4 @@ int		main(/*int ac, char **av*/void)
 //		}
 //	}
 }
-
+*/
