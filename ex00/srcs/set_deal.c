@@ -33,9 +33,33 @@ void	set_deal_hun(t_dict *lang)
 
 void	set_deal_bigs(t_dict *lang)
 {
-	
-}
+	int		i;
+	int		j;
+	int		k;
+	int		set;
 
+	i = 0;
+	j = 0;
+	k = 0;
+	set = 1;
+	while (lang[i].num)
+	{
+		j = ft_strlen(lang[i].num);
+		if (j > 3 && lang[i].num[0] == '1')
+		{
+			k = 1;
+			while (lang[i].num[k])
+			{
+				if (lang[i].num[k] != '0')
+					set = 0;
+				k++;
+			}
+			if (set == 1)
+				lang[i].deal = (j / 3) + 1;
+		}
+	}
+}
+/*
 #include <stdio.h>
 
 int		main(int ac, char **av)
@@ -48,3 +72,4 @@ int		main(int ac, char **av)
 		printf("%i", len_bundle(arg));
 	}
 }
+*/

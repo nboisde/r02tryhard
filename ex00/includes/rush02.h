@@ -69,4 +69,10 @@ int		valid_dict(char **dict);
 
 t_dict	*create_dict(char **dict);
 
+int		len_bundle(t_num arg);
+
+void	set_deal_hun(t_dict *lang);
+
+void	set_deal_bigs(t_dict *lang);
+
 #endif
