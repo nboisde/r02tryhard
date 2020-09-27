@@ -56,47 +56,47 @@ deal: 1
 word number 11:
 number :11
 letters :eleven
-deal: -1
+deal: 1
 ===================================
 word number 12:
 number :12
 letters :twelve
-deal: -1
+deal: 1
 ===================================
 word number 13:
 number :13
 letters :thirteen
-deal: -1
+deal: 1
 ===================================
 word number 14:
 number :14
 letters :fourteen
-deal: -1
+deal: 1
 ===================================
 word number 15:
 number :15
 letters :fifteen
-deal: -1
+deal: 1
 ===================================
 word number 16:
 number :16
 letters :sixteen
-deal: -1
+deal: 1
 ===================================
 word number 17:
 number :17
 letters :seventeen
-deal: -1
+deal: 1
 ===================================
 word number 18:
 number :18
 letters :eighteen
-deal: -1
+deal: 1
 ===================================
 word number 19:
 number :19
 letters :nineteen
-deal: -1
+deal: 1
 ===================================
 word number 20:
 number :20

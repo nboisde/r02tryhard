@@ -26,7 +26,7 @@ void	set_deal_hun(t_dict *lang)
 		if ((j == 1 && lang[i].num[0] != '0') || (j == 2 &&
 			lang[i].num[1] == '0') || (j == 3 && lang[i].num[1] == '0' &&
 			lang[i].num[2] == '0' && lang[i].num[0] == '1') || (j == 2 &&
-			lang[i].num[2] == '1'))
+			lang[i].num[0] == '1'))
 			lang[i].deal = 1;
 		i++;
 	}
