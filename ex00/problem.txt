@@ -1,0 +1,246 @@
+================================
+0: zero
+strlen 7
+get_end 5
+valid_line 3
+len_num 0
+================================
+1: one
+strlen 6
+get_end 4
+valid_line 3
+len_num 0
+================================
+2: two
+strlen 6
+get_end 4
+valid_line 3
+len_num 0
+================================
+3: three
+strlen 8
+get_end 6
+valid_line 3
+len_num 0
+================================
+4: four
+strlen 7
+get_end 5
+valid_line 3
+len_num 0
+================================
+5: five
+strlen 7
+get_end 5
+valid_line 3
+len_num 0
+================================
+6: six
+strlen 6
+get_end 4
+valid_line 3
+len_num 0
+================================
+7: seven
+strlen 8
+get_end 6
+valid_line 3
+len_num 0
+================================
+8: eight
+strlen 8
+get_end 6
+valid_line 3
+len_num 0
+================================
+9: nine
+strlen 7
+get_end 5
+valid_line 3
+len_num 0
+================================
+10: ten
+strlen 7
+get_end 4
+valid_line 4
+len_num 1
+================================
+11: eleven
+strlen 10
+get_end 7
+valid_line 4
+len_num 1
+================================
+12: twelve
+strlen 10
+get_end 7
+valid_line 4
+len_num 1
+================================
+13: thirteen
+strlen 12
+get_end 9
+valid_line 4
+len_num 1
+================================
+14: fourteen
+strlen 12
+get_end 9
+valid_line 4
+len_num 1
+================================
+15: fifteen
+strlen 11
+get_end 8
+valid_line 4
+len_num 1
+================================
+16: sixteen
+strlen 11
+get_end 8
+valid_line 4
+len_num 1
+================================
+17: seventeen
+strlen 13
+get_end 10
+valid_line 4
+len_num 1
+================================
+18: eighteen
+strlen 12
+get_end 9
+valid_line 4
+len_num 1
+================================
+19: nineteen
+strlen 12
+get_end 9
+valid_line 4
+len_num 1
+================================
+20: twenty
+strlen 10
+get_end 7
+valid_line 4
+len_num 1
+================================
+30: thirty
+strlen 10
+get_end 7
+valid_line 4
+len_num 1
+================================
+40: forty
+strlen 9
+get_end 6
+valid_line 4
+len_num 1
+================================
+50: fifty
+strlen 9
+get_end 6
+valid_line 4
+len_num 1
+================================
+60: sixty
+strlen 9
+get_end 6
+valid_line 4
+len_num 1
+================================
+70: seventy
+strlen 11
+get_end 8
+valid_line 4
+len_num 1
+================================
+80: eighty
+strlen 10
+get_end 7
+valid_line 4
+len_num 1
+================================
+90: ninety
+strlen 10
+get_end 7
+valid_line 4
+len_num 1
+================================
+100: hundred
+strlen 12
+get_end 8
+valid_line 5
+len_num 2
+================================
+1000: thousand
+strlen 14
+get_end 9
+valid_line 6
+len_num 3
+================================
+1000000: million
+strlen 16
+get_end 8
+valid_line 9
+len_num 6
+================================
+1000000000: billion
+strlen 19
+get_end 8
+valid_line 12
+len_num 9
+================================
+1000000000000: trillion
+strlen 23
+get_end 9
+valid_line 15
+len_num 12
+================================
+1000000000000000: quadrillion
+strlen 29
+get_end 12
+valid_line 18
+len_num 15
+================================
+1000000000000000000: quintillion
+strlen 32
+get_end 12
+valid_line 21
+len_num 18
+================================
+1000000000000000000000: sextillion
+strlen 34
+get_end 11
+valid_line 24
+len_num 21
+================================
+1000000000000000000000000: septillion
+strlen 37
+get_end 11
+valid_line 27
+len_num 24
+================================
+1000000000000000000000000000: octillion
+strlen 39
+get_end 10
+valid_line 30
+len_num 27
+================================
+1000000000000000000000000000000: nonillion
+strlen 42
+get_end 10
+valid_line 33
+len_num 30
+================================
+1000000000000000000000000000000000: decillion
+strlen 45
+get_end 10
+valid_line 36
+len_num 33
+================================
+1000000000000000000000000000000000000: undecillion
+strlen 50
+get_end 12
+valid_line 39
+len_num 36

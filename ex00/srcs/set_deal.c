@@ -25,7 +25,8 @@ void	set_deal_hun(t_dict *lang)
 			lang[i].deal = 0;
 		if ((j == 1 && lang[i].num[0] != '0') || (j == 2 &&
 			lang[i].num[1] == '0') || (j == 3 && lang[i].num[1] == '0' &&
-			lang[i].num[2] == '0' && lang[i].num[0] == 1))
+			lang[i].num[2] == '0' && lang[i].num[0] == '1') || (j == 2 &&
+			lang[i].num[2] == '1'))
 			lang[i].deal = 1;
 		i++;
 	}
@@ -34,18 +35,15 @@ void	set_deal_hun(t_dict *lang)
 void	set_deal_bigs(t_dict *lang)
 {
 	int		i;
-	int		j;
 	int		k;
 	int		set;
 
 	i = 0;
-	j = 0;
 	k = 0;
 	set = 1;
 	while (lang[i].num)
 	{
-		j = ft_strlen(lang[i].num);
-		if (j > 3 && lang[i].num[0] == '1')
+		if (ft_strlen(lang[i].num) > 3 && lang[i].num[0] == '1')
 		{
 			k = 1;
 			while (lang[i].num[k])
@@ -55,8 +53,9 @@ void	set_deal_bigs(t_dict *lang)
 				k++;
 			}
 			if (set == 1)
-				lang[i].deal = (j / 3) + 1;
+				lang[i].deal = (ft_strlen(lang[i].num) / 3) + 1;
 		}
+		i++;
 	}
 }
 /*
