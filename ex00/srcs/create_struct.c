@@ -86,7 +86,7 @@ t_dict		*create_dict(char **dict)
 	lang[len_dict] = create_dict_null();
 	return (lang);
 }
-
+/*
 //#include <stdio.h>
 
 int		main(int ac, char **av)
@@ -132,3 +132,4 @@ int		main(int ac, char **av)
 		}
 	}
 }
+*/
