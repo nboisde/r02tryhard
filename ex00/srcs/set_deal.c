@@ -43,6 +43,7 @@ void	set_deal_bigs(t_dict *lang)
 	set = 1;
 	while (lang[i].num)
 	{
+		set = 1;
 		if (ft_strlen(lang[i].num) > 3 && lang[i].num[0] == '1')
 		{
 			k = 1;

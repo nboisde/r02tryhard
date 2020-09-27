@@ -1,0 +1,210 @@
+word number 0:
+number :0
+letters :zero
+deal: 0
+===================================
+word number 1:
+number :1
+letters :one
+deal: 1
+===================================
+word number 2:
+number :2
+letters :two
+deal: 1
+===================================
+word number 3:
+number :3
+letters :three
+deal: 1
+===================================
+word number 4:
+number :4
+letters :four
+deal: 1
+===================================
+word number 5:
+number :5
+letters :five
+deal: 1
+===================================
+word number 6:
+number :6
+letters :six
+deal: 1
+===================================
+word number 7:
+number :7
+letters :seven
+deal: 1
+===================================
+word number 8:
+number :8
+letters :eight
+deal: 1
+===================================
+word number 9:
+number :9
+letters :nine
+deal: 1
+===================================
+word number 10:
+number :10
+letters :ten
+deal: 1
+===================================
+word number 11:
+number :11
+letters :eleven
+deal: -1
+===================================
+word number 12:
+number :12
+letters :twelve
+deal: -1
+===================================
+word number 13:
+number :13
+letters :thirteen
+deal: -1
+===================================
+word number 14:
+number :14
+letters :fourteen
+deal: -1
+===================================
+word number 15:
+number :15
+letters :fifteen
+deal: -1
+===================================
+word number 16:
+number :16
+letters :sixteen
+deal: -1
+===================================
+word number 17:
+number :17
+letters :seventeen
+deal: -1
+===================================
+word number 18:
+number :18
+letters :eighteen
+deal: -1
+===================================
+word number 19:
+number :19
+letters :nineteen
+deal: -1
+===================================
+word number 20:
+number :20
+letters :twenty
+deal: 1
+===================================
+word number 21:
+number :30
+letters :thirty
+deal: 1
+===================================
+word number 22:
+number :40
+letters :forty
+deal: 1
+===================================
+word number 23:
+number :50
+letters :fifty
+deal: 1
+===================================
+word number 24:
+number :60
+letters :sixty
+deal: 1
+===================================
+word number 25:
+number :70
+letters :seventy
+deal: 1
+===================================
+word number 26:
+number :80
+letters :eighty
+deal: 1
+===================================
+word number 27:
+number :90
+letters :ninety
+deal: 1
+===================================
+word number 28:
+number :100
+letters :hundred
+deal: 1
+===================================
+word number 29:
+number :1000
+letters :thousand
+deal: 2
+===================================
+word number 30:
+number :1000000
+letters :million
+deal: 3
+===================================
+word number 31:
+number :1000000000
+letters :billion
+deal: 4
+===================================
+word number 32:
+number :1000000000000
+letters :trillion
+deal: 5
+===================================
+word number 33:
+number :1000000000000000quadrillion
+letters :quadrillion
+deal: -1
+===================================
+word number 34:
+number :1000000000000000000
+letters :quintillion
+deal: 7
+===================================
+word number 35:
+number :1000000000000000000000
+letters :sextillion
+deal: 8
+===================================
+word number 36:
+number :1000000000000000000000000
+letters :septillion
+deal: 9
+===================================
+word number 37:
+number :1000000000000000000000000000
+letters :octillion
+deal: 10
+===================================
+word number 38:
+number :1000000000000000000000000000000
+letters :nonillion
+deal: 11
+===================================
+word number 39:
+number :1000000000000000000000000000000000
+letters :decillion
+deal: 12
+===================================
+word number 40:
+number :1000000000000000000000000000000000000
+letters :undecillion
+deal: 13
+===================================
+word number 41:
+number :(null)
+letters :(null)
+deal: 0
+===================================

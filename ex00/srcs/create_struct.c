@@ -1,5 +1,5 @@
 #include "../includes/rush02.h"
-#include <stdio.h>
+
 /*
 ** We take as a truth that the dict is already valid.
 */
@@ -87,7 +87,7 @@ t_dict		*create_dict(char **dict)
 	return (lang);
 }
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int		main(/*int ac, char **av*/void)
 {
@@ -102,28 +102,28 @@ int		main(/*int ac, char **av*/void)
 	set_deal_bigs(lang);
 	while (dict[dict_len])
 	{
-		printf("================================\n");
-		printf("%s\n", dict[dict_len]);
-		printf("strlen %i\n", ft_strlen(dict[dict_len]));
-		printf("get_end %i\n", get_end(dict[dict_len]));
-		printf("valid_line %i\n", valid_line(dict[dict_len]));
-		printf("len_num %i\n", len_num(dict[dict_len]));
+//		printf("================================\n");
+//		printf("%s\n", dict[dict_len]);
+//		printf("strlen %i\n", ft_strlen(dict[dict_len]));
+//		printf("get_end %i\n", get_end(dict[dict_len]));
+//		printf("valid_line %i\n", valid_line(dict[dict_len]));
+//		printf("len_num %i\n", len_num(dict[dict_len]));
 		dict_len++;
 	}
 	//printf("Show the language:\n");
-//	while (i <= dict_len)
-//	{
+	while (i <= dict_len)
+	{
 		//printf("Original line:\n");
 		//printf("%s\n", dict[i]);
 		//printf("valid line res%i:\n", valid_line(dict[i]));
 		//printf("get_end %i\n", get_end(dict[i]));
-		//printf("word number %i:\n", i);
-//		printf("number :%s\n", lang[i].num);
-//		printf("letters :%s\n", lang[i].lettr);
-//		printf("deal: %i\n", lang[i].deal);
-//		printf("===================================\n");
-//		i++;
-//	}
+		printf("word number %i:\n", i);
+		printf("number :%s\n", lang[i].num);
+		printf("letters :%s\n", lang[i].lettr);
+		printf("deal: %i\n", lang[i].deal);
+		printf("===================================\n");
+		i++;
+	}
 //	if (ac == 2)
 //	{
 //		t_num		analyse = create_nbr(av[1]);
